@@ -1,0 +1,68 @@
+.col-md-2
+.well.col-md-8.form-horizontal
+  %legend
+    %h2
+      Register
+      %small (Individual student only)
+  = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+    - unless resource.errors.empty?
+      .alert.alert-danger= devise_error_messages!
+
+    .form-group
+      = f.label :full_name, class: "col-sm-3 control-label"
+      .col-sm-9
+        = f.email_field :full_name, autofocus: true, class: "form-control", placeholder: "Firstname Lastname"
+        
+    .form-group
+      = f.label :college, "Institute/University", class: "col-sm-3 control-label"
+      .col-sm-9
+        = f.email_field :college, class: "form-control"
+        
+    .form-group
+      = f.label :gender, class: "col-sm-3 control-label"
+      .col-sm-9
+        .radio
+          %label
+            = f.radio_button :gender, "Male"
+            Male
+          %label
+            = f.radio_button :gender, "Female"
+            Female
+        
+    %hr/    
+    .form-group
+      = f.label :contact_no, "Contact Number", class: "col-sm-3 control-label"
+      .col-sm-9
+        .input-group
+          %span.input-group-addon +91
+          = f.email_field :contact_no, class: "form-control"
+        
+    .form-group
+      = f.label :year, class: "col-sm-3 control-label"
+      .col-sm-2
+        = f.select :year, options_for_select((1..5).step(1).to_a.map{|s| ["#{s}", s]}), {}, class: "form-control"
+    
+    .form-group
+      = f.label :email, class: "col-sm-3 control-label"
+      .col-sm-9
+        = f.email_field :email, class: "form-control", placeholder: "yourname@example.com"
+        
+    %hr/
+    .form-group
+      = f.label :password, class: "col-sm-3 control-label"
+      .col-sm-9
+        = f.password_field :password, autocomplete: "off", class: "form-control"
+        - if @minimum_password_length
+          %span.help-block
+            (#{@minimum_password_length} characters minimum)
+        
+    .form-group
+      = f.label :password_confirmation, "Confirm password", class: "col-sm-3 control-label"
+      .col-sm-9
+        = f.password_field :password_confirmation, autocomplete: "off", class: "form-control"
+  
+    .form-group
+      .col-sm-offset-3.col-sm-9
+        = f.submit "Sign up", class: "btn btn-primary"
+        %hr/
+        = render "devise/shared/links"
