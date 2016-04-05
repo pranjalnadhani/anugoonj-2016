@@ -27,7 +27,14 @@
         = link_to "Anugoonj", root_path, class: "navbar-brand"
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav.navbar-right
-            %li= link_to "Register", new_user_registration_path
+            - if user_signed_in?
+              %li
+                .navbar-text
+                  Signed in as
+                  = link_to current_user.email, edit_user_registration_path, class: "navbar-link"
+              %li= link_to "Logout", destroy_user_session_path, method: :delete
+            - else
+              %li= link_to "Register", new_user_registration_path
             %li.dropdown
               %a.dropdown-toggle{"data-toggle" => "dropdown", href: ""}
                 About

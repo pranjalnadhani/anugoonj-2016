@@ -11,12 +11,12 @@
     .form-group
       = f.label :full_name, class: "col-sm-3 control-label"
       .col-sm-9
-        = f.email_field :full_name, autofocus: true, class: "form-control", placeholder: "Firstname Lastname"
+        = f.text_field :full_name, autofocus: true, class: "form-control", placeholder: "Firstname Lastname"
         
     .form-group
       = f.label :college, "Institute/University", class: "col-sm-3 control-label"
       .col-sm-9
-        = f.email_field :college, class: "form-control"
+        = f.text_field :college, class: "form-control"
         
     .form-group
       = f.label :gender, class: "col-sm-3 control-label"
@@ -35,7 +35,7 @@
       .col-sm-9
         .input-group
           %span.input-group-addon +91
-          = f.email_field :contact_no, class: "form-control"
+          = f.phone_field :contact_no, class: "form-control"
         
     .form-group
       = f.label :year, class: "col-sm-3 control-label"
