@@ -6,5 +6,6 @@ class AddColumnsToUsers < ActiveRecord::Migration
     add_column :users, :contact_no, :string
     add_column :users, :gender, :string
     add_column :users, :year, :integer
+    add_column :users, :role, :string, default: "participant"
   end
 end
