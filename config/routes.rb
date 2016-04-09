@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'events/index'
+
+  get 'events/details'
+
+  get 'events/create'
+
+  get 'events/destroy'
+
   devise_for :users
   root to: 'home#index'
   
