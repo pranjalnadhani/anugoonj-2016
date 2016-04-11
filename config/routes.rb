@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
-  get 'events/index'
-
+  
+  get '/events' => 'events#index'
   get 'events/details'
-
-  get 'events/create'
-
-  get 'events/destroy'
+  post 'events/create'
+  delete 'events/destroy'
 
   devise_for :users
   root to: 'home#index'

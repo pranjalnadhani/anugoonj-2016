@@ -16,6 +16,8 @@ ActiveRecord::Schema.define(version: 20160409032752) do
   create_table "events", force: :cascade do |t|
     t.string   "title"
     t.string   "name"
+    t.string   "family"
+    t.integer  "reg_fees"
     t.integer  "win_prize"
     t.integer  "run_prize"
     t.datetime "schedule"

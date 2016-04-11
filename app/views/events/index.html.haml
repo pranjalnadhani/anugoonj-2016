@@ -1,2 +1,4 @@
-%h1 Events#index
-%p Find me in app/views/events/index.html.haml
+- @events.each do |event|
+  = render partial: "card", locals: { event: event }
+  - if event.id % 3 == 0
+    .row

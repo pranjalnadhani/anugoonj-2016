@@ -27,6 +27,7 @@
         = link_to "Anugoonj", root_path, class: "navbar-brand"
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav.navbar-right
+            %li= link_to "Events", events_path
             - if user_signed_in?
               %li
                 .navbar-text

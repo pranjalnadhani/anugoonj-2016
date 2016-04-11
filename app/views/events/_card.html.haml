@@ -1,0 +1,15 @@
+.col-sm-6.col-md-4
+  .well
+    %h4
+      %span.label.label-success.pull-right= event.family
+    %h3
+      = event.title
+      %br/
+      %small= event.name
+    %p.text-justify= truncate(event.description, length: 75, separator: ' ') { link_to "read more", "#" }
+    %p
+      %b Registration fees:
+      = event.reg_fees
+    %p.text-right
+      = link_to "Register", "#", class: 'btn btn-primary'
+      = link_to "Details", "#", class: 'btn btn-default'
