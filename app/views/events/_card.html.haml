@@ -5,11 +5,11 @@
     %h3
       = event.title
       %br/
-      %small= event.name
+      %small= event.name.humanize
     %p.text-justify= truncate(event.description, length: 75, separator: ' ') { link_to "read more", "#" }
     %p
       %b Registration fees:
       = event.reg_fees
     %p.text-right
       = link_to "Register", "#", class: 'btn btn-primary'
-      = link_to "Details", "#", class: 'btn btn-default'
+      = link_to "Details", events_details_path(event: event.name), class: 'btn btn-default'

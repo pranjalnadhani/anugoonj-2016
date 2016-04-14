@@ -8,7 +8,7 @@
 
 Event.create(
   title: "Champion of Logic",
-  name: "Platform independent coding competition",
+  name: "platform_independent_coding_competition",
   family: "Technical",
   reg_fees: 500,
   win_prize: 4000,
@@ -22,7 +22,7 @@ Event.create(
 
 Event.create(
   title: "Builders of Tomorrow",
-  name: "The bridge-building competition",
+  name: "the_bridge_building_competition",
   family: "Technical",
   reg_fees: 300,
   win_prize: 4000,
@@ -36,7 +36,7 @@ Event.create(
 
 Event.create(
   title: "RIT Science Expo",
-  name: "Technical Projects' Exhibition",
+  name: "technical_projects_exhibition",
   family: "Technical",
   reg_fees: 500,
   win_prize: 4000,
@@ -50,7 +50,7 @@ Event.create(
 
 Event.create(
   title: "Race Against Time",
-  name: "Robotic Race Championship",
+  name: "robotic_race_championship",
   family: "Technical",
   reg_fees: 500,
   win_prize: 5000,
@@ -64,7 +64,7 @@ Event.create(
 
 Event.create(
   title: "Young Entrepreneurs",
-  name: "Business Plan Pitching competition",
+  name: "business_plan_pitching_competition",
   family: "Technical",
   reg_fees: 500,
   win_prize: 4000,
@@ -80,7 +80,7 @@ Hereby RIT presents the business plan competition, a perfect place to pitch thei
 
 Event.create(
   title: "Retribution",
-  name: "Counter Strike",
+  name: "counter_strike",
   family: "Technical",
   reg_fees: 500,
   win_prize: 4000,
@@ -94,7 +94,7 @@ Event.create(
 
 Event.create(
   title: "Survival of the fittest",
-  name: "Need for Speed: Most Wanted",
+  name: "need_for_speed:_most_Wanted",
   family: "Technical",
   reg_fees: 200,
   win_prize: 2000,
@@ -108,7 +108,7 @@ Event.create(
 
 Event.create(
   title: "Dancing Toes (group)",
-  name: "Group dance",
+  name: "group_dance",
   family: "Cultural",
   reg_fees: 150,
   win_prize: 5000,
@@ -122,7 +122,7 @@ Event.create(
 
 Event.create(
   title: "Dancing Toes (duet)",
-  name: "Duet dance",
+  name: "duet_dance",
   family: "Cultural",
   reg_fees: 300,
   win_prize: 2000,
@@ -136,7 +136,7 @@ Event.create(
 
 Event.create(
   title: "The Era of Evening",
-  name: "Solo Singing competition",
+  name: "solo_singing_competition",
   family: "Cultural",
   reg_fees: 100,
   win_prize: 1500,
@@ -150,7 +150,7 @@ Event.create(
 
 Event.create(
   title: "Lilac Dreams",
-  name: "Ramp Walk",
+  name: "ramp_walk",
   family: "Cultural",
   reg_fees: 200,
   win_prize: 5000,
@@ -164,7 +164,7 @@ Event.create(
 
 Event.create(
   title: "Night of the Fall",
-  name: "War of Bands",
+  name: "war_of_bands",
   family: "Cultural",
   reg_fees: 2500,
   win_prize: 15000,
@@ -178,7 +178,7 @@ Event.create(
 
 Event.create(
   title: "The Visuals",
-  name: "Movie Making",
+  name: "movie_making",
   family: "Cultural",
   reg_fees: 500,
   win_prize: 3000,
@@ -192,7 +192,7 @@ Event.create(
 
 Event.create(
   title: "Spark - The Battle of Erudite",
-  name: "Debate",
+  name: "debate",
   family: "Cultural",
   reg_fees: 100,
   win_prize: 1500,
@@ -206,7 +206,7 @@ Event.create(
 
 Event.create(
   title: "Unleash with Flash",
-  name: "Photography",
+  name: "photography",
   family: "Cultural",
   reg_fees: 100,
   win_prize: 1500,

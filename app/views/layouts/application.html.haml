@@ -37,14 +37,15 @@
             - else
               %li= link_to "Login", new_user_session_path
               %li= link_to "Register", new_user_registration_path
-            %li.dropdown
-              %a.dropdown-toggle{"data-toggle" => "dropdown", href: ""}
-                About
-                %span.caret
-              %ul.dropdown-menu
-                %li= link_to "Anugoonj", about_anugoonj_path
-                %li= link_to "College", about_college_path
-                %li= link_to "Coordinators", about_coordinators_path
+            /  
+              %li.dropdown
+                %a.dropdown-toggle{"data-toggle" => "dropdown", href: ""}
+                  About
+                  %span.caret
+                %ul.dropdown-menu
+                  %li= link_to "Anugoonj", about_anugoonj_path
+                  %li= link_to "College", about_college_path
+                  %li= link_to "Coordinators", about_coordinators_path
 
     %nav#loading.navbar.navbar-default.navbar-fixed-bottom{role: "navigation", style: "display: none;"}
       %center

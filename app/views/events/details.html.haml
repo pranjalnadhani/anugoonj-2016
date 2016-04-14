@@ -1,2 +1,25 @@
-%h1 Events#details
-%p Find me in app/views/events/details.html.haml
+.col-md-2
+.col-md-8
+  .well
+    %h4
+      %span.label.label-success.pull-right= @event.family
+    %h3
+      = @event.title
+      %br/
+      %small= @event.name.humanize
+    %p= @event.description
+    %p
+      %b Venue:
+      = @event.location
+    %p
+      %b Registration fees:
+      = @event.reg_fees
+    %p
+      %b Winning prize:
+      = @event.win_prize
+    %p
+      %b Runner-up prize:
+      = @event.run_prize
+    %p
+      %b Rules:
+      = @event.rules
