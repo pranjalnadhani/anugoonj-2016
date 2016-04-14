@@ -11,5 +11,6 @@
       %b Registration fees:
       = event.reg_fees
     %p.text-right
-      = link_to "Register", "#", class: 'btn btn-primary'
+      /
+        = link_to "Register", "#", class: 'btn btn-primary'
       = link_to "Details", events_details_path(event: event.name), class: 'btn btn-default'
