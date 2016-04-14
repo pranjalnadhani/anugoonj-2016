@@ -16,7 +16,20 @@ Event.create(
   schedule: DateTime.new(2016, 4, 16, 8, 30, 0, '+530'),
   location: "Computer Lab",
   description: "Students are invited to participate in the platform independent coding competition. There is no bar on languages, platforms, or any other constraints. The participants would be given a set of real-life problems which are to be solved in their own choice of programming environment.",
-  rules: "Something...",
+  rules: "<p>
+<style type=\"text/css\">
+p { margin-bottom: 0.25cm; line-height: 120%; }</style>
+</p>
+<ol>
+<li><p align=\"justify\" style=\"margin-bottom: 0cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Choice of the programming environment should be declared at the time of registration.</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Participants are to refrain from discussing strategies during the contest.</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Any case of code plagiarism will result in disqualification of the users from the contest.</font></p>
+</li>
+<li><p style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">All the solutions should be written from scratch. Participants would not be allowed to write over pre-written piece of code.</font></p>
+</li>
+</ol>",
   coordinators: ""
 )
 
@@ -30,7 +43,33 @@ Event.create(
   schedule: DateTime.new(2016, 4, 16, 13, 0, 0, '+530'),
   location: "Student's club hall",
   description: "The goal of this event is to investigate which type of bridge has the greatest weight bearing capacity. Design, construct and test the most efficient bridge within the given specifications. Model bridges are intended to be simplified versions of real-world bridges, which are designed to accept a load in any position and permit the load to travel across the entire bridge.",
-  rules: "Something...",
+  rules: "<p>
+<style type=\"text/css\">
+p { margin-bottom: 0.25cm; line-height: 120%; }a:link {  }</style>
+</p>
+<ol>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">The bridge should be constructed using any wooden material and commonly used adhesives only. Participants are</font><font face=\"Ubuntu, serif\"> refrained from using any heavy or expensive materials.</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Dimensions of the bridge should be:</font></p>
+<ol start=\"1\" style=\"list-style-type: lower-alpha;\">
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Height: 15 cm</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Width: 10 cm</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Length: 40 cm</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Cross section of each members: 3/32 inch square cross section (0.6 x 0.6 cm<sup>2</sup>)</font></p>
+</li>
+</ol>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Weight of the bridge should not be less than 200gm and not more than 250gm.</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">Bridge frame to be tested/truss bridge.<br />
+</font></p>
+</li>
+<li><p align=\"justify\" style=\"margin-bottom: 0.28cm; line-height: 150%\"><font face=\"Ubuntu, serif\">The complete project report of the bridge so created should be submitted to us in PDF format via email to <a href=\"mailto:anugoonj@ritroorkee.com\">anugoonj@ritroorkee.com</a> by 15</font><sup><font face=\"Ubuntu, serif\">th</font></sup><font face=\"Ubuntu, serif\"> April 2016. Please mention &ldquo;Builders of Tomorrow&rdquo; in the subject line of the email.</font></p>
+</li>
+</ol>",
   coordinators: ""
 )
 
