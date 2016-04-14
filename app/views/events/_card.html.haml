@@ -6,7 +6,7 @@
       = event.title
       %br/
       %small= event.name.humanize
-    %p.text-justify= truncate(event.description, length: 75, separator: ' ') { link_to "read more", events_details_path(event: event.name }
+    %p.text-justify= truncate(event.description, length: 75, separator: ' ') { link_to "read more", events_details_path(event: event.name) }
     %p
       %b Registration fees:
       = event.reg_fees
